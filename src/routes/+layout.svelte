@@ -3,16 +3,22 @@
 	import Footer from './footer.svelte'
 	import '../app.css'
 
+	import Transition from './transition.svelte'
+
 	import 'open-props/style'
 	import 'open-props/normalize'
 	import 'open-props/buttons'
+
+	export let data
 </script>
 
 <div class="layout">
 	<Header />
 
 	<main>
-		<slot />
+		<Transition url={data.url}>
+			<slot />
+		</Transition>
 	</main>
 
 	<Footer />

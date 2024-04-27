@@ -14,6 +14,9 @@ importers:
       '@fontsource/manrope':
         specifier: ^5.0.20
         version: 5.0.20
+      lucide:
+        specifier: ^0.376.1
+        version: 0.376.1
       lucide-svelte:
         specifier: ^0.376.0
         version: 0.376.0(svelte@4.2.15)
@@ -858,6 +861,9 @@ packages:
     resolution: {integrity: sha512-6ZIMO6IjncXC6L1GuXeqPyvTB3oaKCCHfr15qTN9S4bmP9i5CAEag4Nq0zNscdiLFn7AFi/jFFj7X2gCxFbjEQ==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
+
+  lucide@0.376.1:
+    resolution: {integrity: sha512-IvbMHBoHeyko/qvosK526t2oD6P3sORELFswiHIdwuzYHj2bDbnq8zqhl4/POFvvbo2zOORZHY7Hhd+4GjDd9Q==}
 
   magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
@@ -2048,6 +2054,8 @@ snapshots:
   lucide-svelte@0.376.0(svelte@4.2.15):
     dependencies:
       svelte: 4.2.15
+
+  lucide@0.376.1: {}
 
   magic-string@0.30.10:
     dependencies:

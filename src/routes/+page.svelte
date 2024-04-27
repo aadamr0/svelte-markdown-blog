@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { formatDate } from '$lib/utils.js'
+	import { formatDate } from '$lib/utils.js'
 	import * as config from '$lib/config.js'
 	export let data
 </script>
@@ -8,6 +8,7 @@
 	<title>{config.title}</title>
 </svelte:head>
 
+<p>Todo: the RSS page and the color-scheme toggle button</p>
 <section>
 	<ul class="posts">
 		{#each data.posts as post}

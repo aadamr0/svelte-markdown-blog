@@ -90,6 +90,7 @@ html {
 html,
 body {
 	height: 100%;
+	padding-inline: var(--size-4);
 }
 
 html {

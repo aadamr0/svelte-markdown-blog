@@ -7,6 +7,7 @@ learning:<br>
 - colour scheming
 - made api in project, using routing and other sveltekit tech
 - introduction to typescript
+- prerendering teh static site
 
 <br>
 Todo:
@@ -17,3 +18,4 @@ Todo:
 - better understand color-scheme attribute and usage.
 - get olor-scheme changing working
 - letter better page transitions and animations in sveltekit
+- make an rss feed
